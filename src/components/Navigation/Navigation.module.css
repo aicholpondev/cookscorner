@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+    height: 100%;
+    background: #EDEDED;
+    padding: 20px;
+    display: flex ;
+    flex-direction: column;
+    left: 0;
+}
+.line{
+    margin: 20px 0 30px;
+    height: 2px;
+    width: 100%;
+    background: #8A8A8A;
+}
+.link{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 17px ;
+    background: #ffffff;
+    margin: 24px 0;
+}
+.link:hover {
+    background-color: #fbbf75fe;
+
+}
+
+.next{
+    margin-top:190px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 17px;
+    background: #ffffff;
+}
+.next:hover{
+
+    background-color: #fa9e31;
+}
