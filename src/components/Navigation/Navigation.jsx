@@ -10,16 +10,22 @@ export default function Navigation(){
            </NavLink>
             <div className={style.line}></div>
             <div className="links">
-                <div className={style.link}>
-                    <img
-                        src={home} alt="home" />
-                </div>
-                <div className={style.link}>
-                    <img src={search} alt="home" />
-                </div>
-                <div className={style.link}>
-                    <img src={profile} alt="home" />
-                </div>
+                <NavLink to="/home" >
+                    <div className={style.link}>
+                        <img
+                            src={home} alt="home" />
+                    </div>
+                </NavLink>
+                <NavLink to="/search">
+                    <div className={style.link}>
+                        <img src={search} alt="home" />
+                    </div>
+                </NavLink>
+                <NavLink to="/profile">
+                    <div className={style.link}>
+                        <img src={profile} alt="home" />
+                    </div>
+                </NavLink>
             </div>
             <div className={style.next}>
                 <img src={next} alt="home" />

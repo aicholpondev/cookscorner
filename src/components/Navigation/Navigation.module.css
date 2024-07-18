@@ -6,6 +6,8 @@ nav{
     display: flex ;
     flex-direction: column;
     left: 0;
+    top: 0;
+
 }
 .line{
     margin: 20px 0 30px;
