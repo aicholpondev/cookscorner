@@ -65,7 +65,7 @@ export default function RegisterForm(){
                             onBlur={formik.handleBlur}
                             className={style.input}
                             type="text"
-                            id="name"
+                            id="login"
                             placeholder="Enter your Name"
 
                         />
