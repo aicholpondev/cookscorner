@@ -39,7 +39,8 @@ export default function RegisterForm(){
         onSubmit:()=>{
             handleRegister({email: formik.values.email,
                 username:formik.values.login,
-                password: formik.values.password})
+                password: formik.values.password,
+                confirmPassword: formik.values.confirmPassword})
             // sentRegister()
             console.log("submit")
 
@@ -116,7 +117,8 @@ export default function RegisterForm(){
                             onBlur={formik.handleBlur}
                             className={style.input}
                             type={conPassVisible ? "text" : "password"}
-                            id="confirmpassword"
+                            id="confirmPassword"
+                            name="confirmPassword"
                             placeholder="Re-Enter your Password"
                         />
                         <img src={ conPassVisible ? visibility : visibilityOff}

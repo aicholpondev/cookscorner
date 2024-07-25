@@ -15,3 +15,6 @@ export const getDetails =() =>instance.get(`recipes/detail/`);
 //     }
 // });
 export const getCategory =() => instance.get(`recipes/by-category/`)
+export const getRecipeSearch =() =>instance.get(`recipes/search/`);
+export const getProfileDetail =()=>instance.get(`profile/detail/`);
+export const getMyprofile = () =>instance.get(`profile/myprofile/`)
