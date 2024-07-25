@@ -9,9 +9,9 @@ const instance = axios.create({
 export const postLogin = (data) =>instance.post(`users/login/`,data);
 export const postRegister = (data) =>instance.post(`users/resend-email/`,data);
 export const getDetails =() =>instance.get(`recipes/detail/`);
-export const getCategory =(token, category, page) => instance.get(`recipes/by-category/?category=${category}&page=${page}&limit=10`,{
-    headers:{
-        Authorization:`Bearer ${token}`
-    }
-});
-export const postRefreshToken = (refreshToken) => instance.post(`users/login/refresh/`, refreshToken)
+// export const getCategory =(token, category, page) => instance.get(`recipes/by-category/?category=${category}&page=${page}&limit=10`,{
+//     headers:{
+//         Authorization:`Bearer ${token}`
+//     }
+// });
+export const getCategory =() => instance.get(`recipes/by-category/`)
