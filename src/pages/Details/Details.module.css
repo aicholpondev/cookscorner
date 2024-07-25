@@ -1,0 +1,55 @@
+.detailContainer{
+    margin-left: 5rem;
+}
+.detBack{
+    width: 100%;
+}
+.recipeContainer{
+    width: 982px;
+    height: 573px;
+    margin: 2rem 9rem;
+}
+.name{
+    font-size: 24px;
+    font-weight: 600;
+}
+.title{
+    font-size: 14px;
+    font-weight: 400;
+   color: #666666;
+}
+.time{
+    display: flex;
+    gap: 1rem;
+}
+.time h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fa9e31;
+}
+.button{
+    display: inline-block;
+    padding: 4px 10px;
+    background: #FFF6DE;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    border-radius: 100px;
+}
+.public{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.like {
+    display: flex;
+    align-items: center;
+}
+.description{
+    color: #343434;
+    font-weight: 600;
+    font-size: 18px;
+}
+.descriptionText{
+    width: 90%;
+}
