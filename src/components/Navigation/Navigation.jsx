@@ -1,4 +1,4 @@
-import {home,profile,logo,search,next} from "../../assets/image";
+import {home,profile,logo,search,next} from "../../assets/image/index";
 import style from './Navigation.module.css';
 import {NavLink} from "react-router-dom";
 

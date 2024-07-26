@@ -1,5 +1,5 @@
 import style from "./Recipe.module.css"
-import {like,save,detailback} from "../../assets/image/index";
+import {like,save} from "../../assets/image/index";
 
 export default function Recipe(){
     return<>
