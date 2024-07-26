@@ -4,6 +4,7 @@ import React,{useState} from "react";
 import {postRegister} from "../../API";
 import {useFormik} from "formik";
 import {registerSchema} from "../../schemas";
+import Navigation from "../Navigation/Navigation"
 
 import {user,email,visibility,visibilityOff} from "../../assets/image/index"
 export default function RegisterForm(){
@@ -126,8 +127,10 @@ export default function RegisterForm(){
                              onClick={toggleConPassVisibility}
                              className={style.eyeIcon}/>
                     </div>
+                    <NavLink to="/navigation">
+                        <button type="submit" className={style.btnSign} >Sign In</button>
+                    </NavLink>
 
-                    <button type="submit" className={style.btnSign}>Sign In</button>
                 </form>
             </div>
 

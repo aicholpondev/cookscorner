@@ -27,9 +27,11 @@ export default function Navigation(){
                     </div>
                 </NavLink>
             </div>
-            <div className={style.next}>
-                <img src={next} alt="home" />
-            </div>
+           <NavLink to="/" >
+               <div className={style.next}>
+                   <img src={next} alt="home" />
+               </div>
+           </NavLink>
 
         </nav>
     )
